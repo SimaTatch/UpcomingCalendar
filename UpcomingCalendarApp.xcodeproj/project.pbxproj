@@ -12,7 +12,6 @@
 		920E02DC2849452D009AED8F /* MainEventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920E02DB2849452D009AED8F /* MainEventsViewController.swift */; };
 		920E02E12849452E009AED8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920E02E02849452E009AED8F /* Assets.xcassets */; };
 		920E02E42849452E009AED8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 920E02E22849452E009AED8F /* LaunchScreen.storyboard */; };
-		920E02ED284949BE009AED8F /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920E02EC284949BE009AED8F /* UIFont+Extension.swift */; };
 		920E02EF28494E2C009AED8F /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 920E02EE28494E2C009AED8F /* Poppins-Medium.ttf */; };
 		920E02F328495F65009AED8F /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920E02F228495F65009AED8F /* CustomButtonView.swift */; };
 		920E02F7284963EC009AED8F /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 920E02F6284963EC009AED8F /* Poppins-Regular.ttf */; };
@@ -26,6 +25,7 @@
 		920E030E28555362009AED8F /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920E030D28555362009AED8F /* Date+Extension.swift */; };
 		920E03102858E6DA009AED8F /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920E030F2858E6DA009AED8F /* UIViewController+Extension.swift */; };
 		920E03122858FBC5009AED8F /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920E03112858FBC5009AED8F /* UIView+Extension.swift */; };
+		920E03172859DF2D009AED8F /* UIFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920E03162859DF2D009AED8F /* UIFont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +36,6 @@
 		920E02E02849452E009AED8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		920E02E32849452E009AED8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		920E02E52849452E009AED8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		920E02EC284949BE009AED8F /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		920E02EE28494E2C009AED8F /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		920E02F228495F65009AED8F /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
 		920E02F6284963EC009AED8F /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		920E030D28555362009AED8F /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 		920E030F2858E6DA009AED8F /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		920E03112858FBC5009AED8F /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		920E03162859DF2D009AED8F /* UIFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIFont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +119,7 @@
 		920E02FB284A4BED009AED8F /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				920E02EC284949BE009AED8F /* UIFont+Extension.swift */,
+				920E03162859DF2D009AED8F /* UIFont.swift */,
 				920E02F828496CF1009AED8F /* UIColor+Extension.swift */,
 				920E030D28555362009AED8F /* Date+Extension.swift */,
 				920E030F2858E6DA009AED8F /* UIViewController+Extension.swift */,
@@ -232,9 +232,9 @@
 				920E03122858FBC5009AED8F /* UIView+Extension.swift in Sources */,
 				920E02F928496CF1009AED8F /* UIColor+Extension.swift in Sources */,
 				920E03102858E6DA009AED8F /* UIViewController+Extension.swift in Sources */,
-				920E02ED284949BE009AED8F /* UIFont+Extension.swift in Sources */,
 				920E02DC2849452D009AED8F /* MainEventsViewController.swift in Sources */,
 				920E0300284BFC33009AED8F /* EventStruct.swift in Sources */,
+				920E03172859DF2D009AED8F /* UIFont.swift in Sources */,
 				920E02D82849452D009AED8F /* AppDelegate.swift in Sources */,
 				920E02DA2849452D009AED8F /* SceneDelegate.swift in Sources */,
 				920E02F328495F65009AED8F /* CustomButtonView.swift in Sources */,
